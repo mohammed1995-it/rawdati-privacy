@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة خصوصية روضتي</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
+<style>
+  /* Layout: single readable column, sticky-free, numbered only where order is real (none). Navy + teal taken from the app. */
+  :root {
+    --bg: #F4F6F9;
+    --surface: #FFFFFF;
+    --fg: #0A192F;
+    --muted: #4A5A70;
+    --line: #DCE3EC;
+    --accent: #1B9C8B;
+    --accent-soft: #E3F4F1;
+    --note-bg: #FFF4D6;
+    --note-fg: #6B4A00;
+    --font: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0A192F; --surface: #112240; --fg: #E6EDF7; --muted: #A3B2C7;
+      --line: #25395A; --accent: #3CC8B4; --accent-soft: #123A4A;
+      --note-bg: #3B3014; --note-fg: #F5D68A; color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0A192F; --surface: #112240; --fg: #E6EDF7; --muted: #A3B2C7;
+    --line: #25395A; --accent: #3CC8B4; --accent-soft: #123A4A;
+    --note-bg: #3B3014; --note-fg: #F5D68A; color-scheme: dark;
+  }
+  body { background: var(--bg); color: var(--fg); font-family: var(--font); font-size: 16px; line-height: 1.85; padding-inline: 16px; padding-block: 28px 56px; }
+  .page { max-width: 720px; margin-inline: auto; }
+  header { padding-block-end: 20px; border-block-end: 3px solid var(--accent); margin-block-end: 28px; }
+  .app { color: var(--accent); font-weight: 600; font-size: 14px; letter-spacing: .02em; margin: 0 0 6px; }
+  h1 { font-size: clamp(26px, 6vw, 36px); line-height: 1.35; margin: 0 0 10px; text-wrap: balance; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0; }
+  h2 { font-size: 20px; line-height: 1.5; margin: 36px 0 8px; text-wrap: balance; }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-inline-start: 22px; }
+  li { margin-block-end: 6px; }
+  .intro { font-size: 17px; }
+  .data { display: grid; gap: 12px; margin-block: 12px 16px; }
+  .data div { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; min-width: 0; }
+  .data b { display: block; color: var(--accent); margin-block-end: 2px; }
+  .data span { color: var(--muted); font-size: 15px; }
+  .not { background: var(--accent-soft); border-radius: 10px; padding: 12px 16px; margin-block: 8px 12px; }
+  .not ul { margin: 0; }
+  .contact { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+  .fill { background: var(--note-bg); color: var(--note-fg); padding: 1px 8px; border-radius: 6px; font-weight: 600; }
+  footer { margin-block-start: 40px; padding-block-start: 16px; border-block-start: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  @media (min-width: 640px) { .data { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<main class="page" dir="rtl" lang="ar">
+  <header>
+    <p class="app">روضتي</p>
+    <h1>سياسة الخصوصية</h1>
+    <p class="meta">آخر تحديث: 12 تشرين الأول (أكتوبر) 2026</p>
+  </header>
+
+  <p class="intro">«روضتي» تطبيق لإدارة الروضات: تسجيل الطلاب، وتحصيل الأقساط وإصدار الوصولات، ومتابعة أولياء الأمور لمدفوعات أبنائهم. توضح هذه الصفحة ما البيانات التي يحفظها التطبيق، ولماذا، ومن يستطيع الاطلاع عليها.</p>
+
+  <h2>من المسؤول عن البيانات</h2>
+  <p>التطبيق من تطوير <b>محمد خضر</b>. أما بيانات الطلاب وأولياء الأمور، فتُدخلها كل روضة بنفسها وتبقى تحت إدارتها. كل روضة تتعامل مع بياناتها فقط، ولا ترى بيانات أي روضة أخرى.</p>
+
+  <h2>البيانات التي يحفظها التطبيق</h2>
+  <div class="data">
+    <div><b>حسابات الموظفين</b><span>الاسم المعروض، واسم المستخدم، والدور (مدير أو محاسب)، والروضة التابع لها الحساب.</span></div>
+    <div><b>بيانات الطلاب</b><span>اسم الطالب، والصف، والقسط الشهري، وتواريخ الدفع، وملاحظات تكتبها الروضة.</span></div>
+    <div><b>بيانات ولي الأمر</b><span>رقم هاتف ولي الأمر، وحساب دخول خاص به لمتابعة ابنه.</span></div>
+    <div><b>الوصولات والمدفوعات</b><span>رقم الوصل، والمبلغ، والفترة التي يغطيها، واسم الموظف الذي استلم المبلغ.</span></div>
+  </div>
+  <p>كلمات المرور تُدار عبر خدمة المصادقة من Google ولا نستطيع الاطلاع عليها.</p>
+
+  <h2>ما لا يجمعه التطبيق</h2>
+  <div class="not">
+    <ul>
+      <li>لا يطلب موقعك الجغرافي.</li>
+      <li>لا يصل إلى الكاميرا أو الميكروفون أو الصور أو جهات الاتصال.</li>
+      <li>لا يعرض إعلانات ولا يستخدم أدوات تتبّع أو تحليل سلوك المستخدم.</li>
+    </ul>
+  </div>
+
+  <h2>كيف نستخدم البيانات</h2>
+  <ul>
+    <li>تسجيل دخول المستخدمين وتحديد ما يحق لكل حساب رؤيته.</li>
+    <li>عرض الطلاب والأقساط والوصولات والتقارير للروضة.</li>
+    <li>تمكين ولي الأمر من رؤية مدفوعات ابنه فقط.</li>
+  </ul>
+  <p>لا نستخدم البيانات لأغراض دعائية، ولا نبيعها ولا نؤجّرها لأي جهة.</p>
+
+  <h2>أين تُخزَّن البيانات ومن يصل إليها</h2>
+  <p>تُحفظ البيانات على خدمات Google Firebase (المصادقة وقاعدة بيانات Firestore)، وتُنقل بينها وبين التطبيق عبر اتصال مشفّر. تعمل قواعد أمان على الخادم، وتنص على أن:</p>
+  <ul>
+    <li>موظفو كل روضة يصلون إلى بيانات روضتهم فقط.</li>
+    <li>ولي الأمر يصل إلى سجل ابنه ووصولاته فقط.</li>
+    <li>لا يُسمح لأي حساب بقراءة بيانات روضة أخرى.</li>
+  </ul>
+  <p>تعالج Google هذه البيانات بصفتها مزوّد خدمة استضافة لنا. وتخضع لسياسة الخصوصية الخاصة بها.</p>
+
+  <h2>واتساب</h2>
+  <p>زر واتساب في التطبيق يفتح تطبيق واتساب على محادثة مع رقم الهاتف المسجّل، دون رسالة جاهزة. لا يرسل التطبيق أي بيانات إلى واتساب، والمحادثة نفسها تخضع لسياسة واتساب.</p>
+
+  <h2>بيانات الأطفال</h2>
+  <p>لا يُنشئ الأطفال حسابات بأنفسهم. تُدخل الروضة بيانات الطالب بعد تسجيله لديها، وتتولى الحصول على موافقة ولي الأمر وفق ما يقتضيه عملها. نحفظ الحد الأدنى اللازم فقط: الاسم والصف والمدفوعات، دون صور أو بيانات صحية.</p>
+
+  <h2>مدة الاحتفاظ والحذف</h2>
+  <ul>
+    <li>تبقى البيانات ما دامت الروضة مشتركة في التطبيق وتحتاجها.</li>
+    <li>تستطيع الروضة حذف سجل أي طالب، فيُحذف معه حساب ولي الأمر المرتبط به في التطبيق.</li>
+    <li>يستطيع ولي الأمر أو الروضة طلب حذف البيانات المتعلقة بهم عبر وسيلة التواصل أدناه، وننفّذ الطلب خلال مدة معقولة.</li>
+  </ul>
+
+  <h2>حقوقك</h2>
+  <p>يحق لك أن تطلب الاطلاع على بياناتك أو تصحيحها أو حذفها. وبما أن الروضة هي من يُدخل بيانات الطلاب، فقد نحيل طلبك إليها للتأكد منه وتنفيذه.</p>
+
+  <h2>التغييرات على هذه السياسة</h2>
+  <p>إذا عدّلنا هذه السياسة سنغيّر تاريخ «آخر تحديث» أعلاه. وإذا كان التغيير جوهرياً فسنُعلم الروضات المشتركة.</p>
+
+  <h2>التواصل</h2>
+  <div class="contact">
+    <p>لأي سؤال أو طلب يتعلق بالخصوصية:</p>
+    <p style="margin:0">البريد الإلكتروني: <bdi dir="ltr" style="user-select:all">mohammedit516@gmail.com</bdi></p>
+  </div>
+
+  <footer>روضتي © 2026</footer>
+</main>
+</body>
+
+</html>
